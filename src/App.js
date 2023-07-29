@@ -12,6 +12,7 @@ function App()  {
     <div className= 'app'> 
     <Router> 
         <Header> </Header>
+        <div className= "container"></div>
         <Routes>
         <Route path ="/" Component={Home} />
         <Route path ="/movie/:imdbID" Component={MovieDetail} />
