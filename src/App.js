@@ -1,9 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.scss';
+import './App.css';
 import Home from './components/Home/Home';
 import MovieDetail from './components/MovieDetail/MovieDetail';
-import PageNotFound from './components/PageNotFound/PageNotFound';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
@@ -16,8 +15,7 @@ function App()  {
         <Routes>
         <Route path ="/" Component={Home} />
         <Route path ="/movie/:imdbID" Component={MovieDetail} />
-        <Route Component={PageNotFound} />
-         </Routes>
+        </Routes>
         <Footer/>
     </Router>
     

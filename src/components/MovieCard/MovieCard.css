@@ -1,9 +1,9 @@
-@import "../../common/colors.scss"; 
+
 
 
 .card-item {
 
- background : $secondary-color;
+ background :#696969;
  cursor:pointer;
  transition: all 0.3s; 
  

@@ -1,4 +1,3 @@
-@import "../../common/colors.scss"; 
 
 .header {
 
@@ -16,7 +15,7 @@
 
 .logo{
 
- color : $font-primary; 
+ color : #DAA520; 
  font-size: 20px;
  font-weight: 600;
 

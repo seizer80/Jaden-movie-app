@@ -1,5 +1,5 @@
 import React from 'react';
-import "./MovieCard.scss";
+import "./MovieCard.css";
 import {Link} from 'react-router-dom'
 
 const MovieCard = (props) => {

@@ -12,7 +12,7 @@ const Home = () => {
     }, [dispatch] );
   return (
      <div> 
-  <div className ="banner-img" > Home</div>
+  <div className ="banner-img" > </div>
    <MovieListing/>
     </div>
   )  

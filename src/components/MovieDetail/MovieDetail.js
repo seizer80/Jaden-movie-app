@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import "./MovieDetail.scss"
+import "./MovieDetail.css"
 import {useParams} from 'react-router';
 import {useDispatch, useSelector} from 'react-redux';
 import { fetchAsyncMoviesOrShowDetail,getSelectedMovieorShow, removeSelectedMovieOrShow
